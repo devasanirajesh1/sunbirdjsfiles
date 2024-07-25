@@ -38,8 +38,7 @@ const RaiseNeed = props => {
   };
 
   const changeHandler = e => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+    setFormData({ ...formData, [e.
 
   const submitHandler = e => {
     e.preventDefault();
@@ -55,9 +54,7 @@ const RaiseNeed = props => {
   return (
     <div className="wrapRaiseNeed">
       <div className="btnClose">
-        <button onClick={props.handleClose}>x</button>
-      </div>
-      <div className="raiseNeed">
+        <="raiseNeed">
         <div className="raiseNeedBar">
           <div className="wrapNeedBar">
             <div className="tabButtons">
@@ -78,9 +75,7 @@ const RaiseNeed = props => {
                 </div>
               <form className="needForm" onSubmit={submitHandler}>
                 <div className="formLeftSide">
-                  <div className="itemForm">
-                    <label>Need Name</label>
-                    <input
+               put
                       type="text"
                       placeholder="Ex. Avila Beach Cleaning"
                       name="name"
@@ -117,9 +112,7 @@ const RaiseNeed = props => {
                     <select
                       className="selNeedType"
                       name="needTypeId"
-                      value={formData.needTypeId}
-                      onChange={changeHandler}
-                    >
+                      value={for
                       <option value="" defaultValue>
                         Select Need type
                       </option>
